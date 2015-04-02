@@ -13,6 +13,7 @@
 		720B8C9A1AC8964D00064B86 /* pictureSpade.png in Resources */ = {isa = PBXBuildFile; fileRef = 720B8C951AC8964D00064B86 /* pictureSpade.png */; };
 		720B8C9B1AC8964D00064B86 /* pdftest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 720B8C961AC8964D00064B86 /* pdftest.pdf */; };
 		720B8C9D1AC8A6B900064B86 /* PictureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B8C9C1AC8A6B900064B86 /* PictureHelper.swift */; };
+		720B8C9F1ACDD03200064B86 /* ImageAndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B8C9E1ACDD03200064B86 /* ImageAndPoints.swift */; };
 		72FE6A2B1AC0234B00FF792D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE6A2A1AC0234B00FF792D /* AppDelegate.swift */; };
 		72FE6A2E1AC0234B00FF792D /* GeoFile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72FE6A2C1AC0234B00FF792D /* GeoFile.xcdatamodeld */; };
 		72FE6A301AC0234B00FF792D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE6A2F1AC0234B00FF792D /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		720B8C951AC8964D00064B86 /* pictureSpade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pictureSpade.png; path = pictures/pictureSpade.png; sourceTree = "<group>"; };
 		720B8C961AC8964D00064B86 /* pdftest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = pdftest.pdf; path = pictures/pdftest.pdf; sourceTree = "<group>"; };
 		720B8C9C1AC8A6B900064B86 /* PictureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureHelper.swift; sourceTree = "<group>"; };
+		720B8C9E1ACDD03200064B86 /* ImageAndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAndPoints.swift; sourceTree = SOURCE_ROOT; };
 		72FE6A251AC0234B00FF792D /* GeoFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FE6A291AC0234B00FF792D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72FE6A2A1AC0234B00FF792D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				72FE6A6A1AC041CA00FF792D /* Resources */,
 				72FE6A281AC0234B00FF792D /* Supporting Files */,
 				720B8C9C1AC8A6B900064B86 /* PictureHelper.swift */,
+				720B8C9E1ACDD03200064B86 /* ImageAndPoints.swift */,
 			);
 			path = GeoFile;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				72FE6A301AC0234B00FF792D /* ViewController.swift in Sources */,
 				72FE6A2B1AC0234B00FF792D /* AppDelegate.swift in Sources */,
 				72FE6A6E1AC0492400FF792D /* FilesViewController.swift in Sources */,
+				720B8C9F1ACDD03200064B86 /* ImageAndPoints.swift in Sources */,
 				72FE6A2E1AC0234B00FF792D /* GeoFile.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
